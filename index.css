@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 50%;
+    display: block;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+header img {
+    width: 50%;
+    display: block;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #FFB4A2;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+    width: 100px;
+    height: 50px;
+    list-style: none;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+li:hover{
+    opacity: 50%;
+    height: auto;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilos de los botones */
+.boton {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.boton img {
+    background-color: #898989;
+    opacity: 50%;
+    width: 350px;
+    height: 800px;
+}
+
+.boton p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilos de los enlaces */
+#enlaces {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6D6875;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #6D6875;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: block;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    #botones {
+        text-align: center;
+    }
+}
