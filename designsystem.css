@@ -4,50 +4,122 @@ body {
     padding: 0;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .header {
-    background-color: #3498db;
-    color: #fff;
+    background-color: #ffcdb2;
+    color: #6d6875;
     text-align: center;
     padding: 20px;
 }
 
-.content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+/* Paleta de Colores */
+.color {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: inline-block;
 }
 
-.section {
-    margin-bottom: 20px;
+.primary {
+    background-color: #ffcdb2;
 }
 
-/* Estilos de botones */
+.secondary {
+    background-color: #ffb4a2;
+}
+
+.tertiary {
+    background-color: #e5989b;
+}
+
+.quaternary {
+    background-color: #b5838d;
+}
+
+.quinary {
+    background-color: #6d6875;
+}
+
+/* Tipografía */
+.font-primary {
+    font-family: "Arial", sans-serif;
+}
+
+.font-secondary {
+    font-family: "Helvetica", sans-serif;
+}
+
+/* Botones */
 .btn {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-right: 10px;
 }
 
-.primary {
-    background-color: #3498db;
-    color: #fff;
+.primero {
+    background-color: #ffb4a2;
+    color: #6d6875;
 }
 
-.secondary {
-    background-color: #f39c12;
-    color: #fff;
+.segundo {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
 }
 
-/* Estilos de títulos */
-h1, h2, h3 {
-    color: #333;
+/* Símbolos */
+.symbol {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid #333;
 }
 
-/* Estilos de pie de página */
-.footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+.symbol-1 {
+    width: 50%;
+    display: block;
+    height: auto; 
+}
+
+.symbol-2 {
+    width: 50%;
+    display: block;
+    height: auto;
+}
+
+.symbol-3 {
+    width: 50%;
+    display: block;
+    height: auto;
+}
+
+.symbol-4 {
+    width: 50%;
+    display: block;
+    height: auto;
+}
+
+.symbol-5 {
+    width: 50%;
+    display: block;
+    height: auto;
+}
+
+.symbol-6 {
+    width: 50%;
+    display: block;
+    height: auto;
+}
+
+.symbol-7 {
+    width: 50%;
+    display: block;
+    height: auto;
 }
