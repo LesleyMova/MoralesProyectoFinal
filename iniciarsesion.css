@@ -4,6 +4,44 @@
     box-sizing: border-box;
     font-family: "arial";
 }
+img{
+    width: 50%;
+    display: block;
+    height: auto;
+}
+nav ul {
+    list-style: none;
+    background-color: #FFB4A2;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+    width: 100px;
+    height: 50px;
+    list-style: none;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+li:hover{
+    opacity: 50%;
+    height: auto;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
 
 h1{
     font-family: "Helvetica";
@@ -50,5 +88,20 @@ form {
   
   /* Estilo para el botón de envío al pasar el ratón */
   button[type="submit"]:hover {
+    background-color: #6c59ed;
+  }
+
+  button[type="button"] {
+    background-color: #6c59ed;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Estilo para el botón de envío al pasar el ratón */
+  button[type="button"]:hover {
     background-color: #6c59ed;
   }

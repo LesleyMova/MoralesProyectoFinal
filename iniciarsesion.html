@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="iniciarsesion.css">
+    <script src="https://kit.fontawesome.com/d027c8844d.js" crossorigin="anonymous"></script>
     <title>Iniciar sesion</title>
 </head>
 <body>
+    <header>
+        <nav class="barra de navegación">
+            <ul>
+                <li><a href=""><img src="./imagenes/firma.png" ></a></li>
+                <li><a href=""><img src="./imagenes/avatar.png"></a></li>
+                <li><a href=""><img src="./imagenes/galeria.png"></a></li>
+                <li><a href=""><img src="./imagenes/lupa.png"></a></li>
+                <li><a href=""><img src="./imagenes/correo-electronico.png"></a></li>
+                <li><a href="iniciarsesion.html"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>Inicio de sesion</h1>
     <form action="">
         <label for="">Nombre:</label>
@@ -21,12 +34,19 @@
         <label for="">Contraseña:</label>
         <input type="text" name="" id="">
 
-        <label for="">Confirmar ontraseña:</label>
+        <label for="">Confirmar contraseña:</label>
         <input type="text" name="" id="">
 
         <button type="submit">Enviar</button>
-        <button type="submit" id="registrarse">Registrarse</button>
+        <button type="button" id="registrarse">Registrarse</button>
+ 
     </form>
-
+    <script>
+        // Agregar un evento 'click' al botón
+        document.getElementById("registrarse").addEventListener("click", function() {
+            // Redirigir a otra ventana
+            window.location.href = "registro.html"; // Reemplaza "otra_pagina.html" con la URL de la página a la que deseas redirigirte
+        });
+    </script>
 </body>
 </html>
