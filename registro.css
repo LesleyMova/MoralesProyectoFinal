@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "arial";
+}
+h1{
+  font-family: "Helvetica";
+  color: rgb(3, 51, 110);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffb4b4;
+    border: 1px solid #905454;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(101, 1, 1, 0.1);
+  }
+  
+  /* Estilos para las etiquetas */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #030781;
+  }
+  
+  /* Estilos para los campos de entrada */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e39e9e;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para el botón de envío (si lo tienes) */
+button[type="submit"] {
+  background-color: #6c59ed;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Estilo para el botón de envío al pasar el ratón */
+button[type="submit"]:hover {
+  background-color: #6c59ed;
+}
+
+button[type="button"] {
+  background-color: #6c59ed;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Estilo para el botón de envío al pasar el ratón */
+button[type="button"]:hover {
+  background-color: #6c59ed;
+}
