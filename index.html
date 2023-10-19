@@ -21,6 +21,8 @@
     </nav>
 </header>
 
+
+
     <!-- Botones rectangulares con imágenes y títulos -->
     <section id="botones">
         <div class="boton animated-button">
@@ -50,9 +52,18 @@
             <button>Contacto</button>
         </a>
     </section>
-</body>
-</html>
 
-    
+
+    <div class="blurredBg"></div>
+ <img class="mova-chan" src="./imagenes/mova-chan 1.png" alt="Logo">
+
+ <script>
+    // Esta es una función de JS que permite ejecutar otra función (o bloque de código) después de un tiempo especificado en milisegundos, es decir; lo que hace es desaparecer los 2 items que encontró gracias al querySelector, después de 5 segundos.
+    setTimeout(() => {
+        document.querySelector('.mova-chan').style.display = 'none';
+        document.querySelector('.blurredBg').style.display = 'none';
+    }, 3000); // Desaparecerá después de 3 segundos
+</script>
+
 </body>
 </html>
