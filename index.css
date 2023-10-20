@@ -86,6 +86,12 @@ nav a {
     }
 }
 
+.fa-bars{
+    font-size: 40px;
+    margin-top: 4px;
+    color: #6D6875;
+}
+
 /* Estilos de los enlaces */
 #enlaces {
     text-align: center;
@@ -124,9 +130,6 @@ button:hover {
     }
 }
 
-
-
-
 .blurredBg {
     position: fixed;
     z-index: 1; /* Se asegura de que el fondo esté detrás del logo */    top: 0; 
@@ -160,4 +163,51 @@ button:hover {
     80%{opacity: 0.75;}
     90%{opacity: 0.5;}
     100%{opacity: 0;}
+}
+
+/* Diseño Responsivo */
+/* SE CUMPLE HASTA LOS 768px */
+@media screen and (max-width: 768px) {
+    .menuToggle {
+        display: flex;
+    }
+    
+    .fa-bars {
+    font-size: 24px;
+    color: #6D6875;
+    }
+    
+    /* Inicialmente el navegador no se ve */
+    .barradenavegación {
+        display: none;
+        flex-direction: column;
+        background-color: #FFB4A2;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        border-radius: 0 0 10px 10px;
+    }
+
+    /* Cuando tenga la clase activa, entonces se verá */
+    .barradenavegación.active {
+        display: flex;
+    }
+
+    .fa-bars {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .barradenavegación li {
+        margin: 10px 0;
+    }
+
+    .barradenavegación a {
+        font-size: 18px;
+    }
 }
