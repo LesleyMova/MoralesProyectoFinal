@@ -112,24 +112,6 @@ button:hover {
     background-color: #6D6875;
 }
 
-/* Estilos para dispositivos móviles */
-@media screen and (max-width: 768px) {
-    nav ul {
-        display: block;
-        padding: 0;
-    }
-
-    nav li {
-        display: block;
-        text-align: center;
-        margin: 10px 0;
-    }
-
-    #botones {
-        text-align: center;
-    }
-}
-
 .blurredBg {
     position: fixed;
     z-index: 1; /* Se asegura de que el fondo esté detrás del logo */    top: 0; 
@@ -166,16 +148,6 @@ button:hover {
 }
 
 /* Diseño Responsivo */
-/* SE CUMPLE HASTA LOS 768px */
-@media screen and (max-width: 768px) {
-    .menuToggle {
-        display: flex;
-    }
-    
-    .fa-bars {
-    font-size: 24px;
-    color: #6D6875;
-    }
     
     /* Inicialmente el navegador no se ve */
     .barradenavegación {
@@ -209,5 +181,32 @@ button:hover {
 
     .barradenavegación a {
         font-size: 18px;
+    }
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: block;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    #botones {
+        text-align: center;
+    }
+}
+    @media screen and (max-width: 768px) {
+    .menuToggle {
+        display: flex;
+    }
+    
+    .fa-bars {
+    font-size: 24px;
+    color: #6D6875;
     }
 }
