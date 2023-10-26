@@ -72,7 +72,7 @@ nav a {
 }
 
 .animated-button {
-    animation: appearFromTop 1s ease forwards;
+    /* animation: appearFromTop 1s ease forwards; */
 }
 
 @keyframes appearFromTop {
@@ -112,6 +112,24 @@ button:hover {
     background-color: #6D6875;
 }
 
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: block;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    #botones {
+        text-align: center;
+    }
+}
+
 .blurredBg {
     position: fixed;
     z-index: 1; /* Se asegura de que el fondo esté detrás del logo */    top: 0; 
@@ -128,7 +146,7 @@ button:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: rotateLogo 3s infinite linear, opacity 3s infinite linear; /* Animación que hace que el logo gire */
+    animation: rotateLogo 3s infinite linear, opacity 3s infinite linear; 
 }
 
 @keyframes rotateLogo {
@@ -146,8 +164,27 @@ button:hover {
     90%{opacity: 0.5;}
     100%{opacity: 0;}
 }
-
+.menuToggle{
+    display: none;
+}
 /* Diseño Responsivo */
+/* SE CUMPLE HASTA LOS 768px */
+@media screen and (max-width: 768px) {
+    .menuToggle {
+        display: block;
+    }
+
+    .menuToggle li{
+        width: 50px;
+        /* display: block; */
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .fa-bars {
+    font-size: 24px;
+    color: #6D6875;
+    }
     
     /* Inicialmente el navegador no se ve */
     .barradenavegación {
@@ -181,32 +218,5 @@ button:hover {
 
     .barradenavegación a {
         font-size: 18px;
-    }
-
-/* Estilos para dispositivos móviles */
-@media screen and (max-width: 768px) {
-    nav ul {
-        display: block;
-        padding: 0;
-    }
-
-    nav li {
-        display: block;
-        text-align: center;
-        margin: 10px 0;
-    }
-
-    #botones {
-        text-align: center;
-    }
-}
-    @media screen and (max-width: 768px) {
-    .menuToggle {
-        display: flex;
-    }
-    
-    .fa-bars {
-    font-size: 24px;
-    color: #6D6875;
     }
 }

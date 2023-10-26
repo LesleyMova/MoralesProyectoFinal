@@ -9,17 +9,20 @@
 </head>
 <body>
     <header>
-        <nav class="barra de navegación">
-            <ul>
-                <li><a href=""><img src="./imagenes/firma.png" ></a></li>
-                <li><a href=""><img src="./imagenes/avatar.png"></a></li>
+        <nav>
+            <ul class="barradenavegación">
+                <li><a href="index.html"><img src="./imagenes/firma.png" ></a></li>
+                <li><a href="iniciarsesion.html"><img src="./imagenes/avatar.png"></a></li>
                 <li><a href=""><img src="./imagenes/galeria.png"></a></li>
                 <li><a href=""><img src="./imagenes/lupa.png"></a></li>
                 <li><a href=""><img src="./imagenes/correo-electronico.png"></a></li>
-                <li><a href="iniciarsesion.html"><i class="fa-solid fa-bars"></i></a></li>
-            </ul>
+            </ul> 
+            <div class="menuToggle">
+                <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </div>
         </nav>
     </header>
+
     <h1>Registro</h1>
     <form action="">
         <label for="">Nombre:</label>
@@ -44,6 +47,7 @@
                 window.location.href = "iniciarsesion.html";
             });
         </script>
-        <script src="script.js"></script>
+
+<script src="script.js"></script>
 </body>
 </html>
