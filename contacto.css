@@ -2,13 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "arial";
 }
+
 img{
     width: 50%;
     display: block;
     height: auto;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
 nav ul {
     list-style: none;
     background-color: #FFB4A2;
@@ -36,95 +44,56 @@ li:hover{
     align-items: center;
 }
 
+
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #FFB4A2;
     font-weight: bold;
     font-size: 18px;
 }
 
-.fa-bars{
-  font-size: 40px;
-  margin-top: 4px;
-  color: #6D6875;
+
+h1 {
+    font-size: 36px;
+    color: #B5838D;
 }
 
-h1{
-    font-family: "Helvetica";
-    color: #B5838D;
-  }
-  
+main {
+    text-align: center;
+    margin: 20px;
+}
 
-form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffb4b4;
-    border: 1px solid #905454;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(101, 1, 1, 0.1);
-  }
-  
-  /* Estilos para las etiquetas */
-  label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: #030781;
-  }
-  
-  /* Estilos para los campos de entrada */
-  input[type="text"] {
-    width: 100%;
+.contact-info {
+    margin: 10px;
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #e39e9e;
-    border-radius: 5px;
-  }
+    background-color: #FFCDB2;
+    border: 1px solid #6D6875;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px #6D6875;
+}
 
-  button[type="submit"] {
-    background-color: #6c59ed;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  /* Estilo para el botón de envío al pasar el ratón */
-  button[type="submit"]:hover {
-    background-color: #6c59ed;
-  }
+a {
+    text-decoration: none;
+    color: #B5838D;
+}
 
-  button[type="button"] {
-    background-color: #6c59ed;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  /* Estilo para el botón de envío al pasar el ratón */
-  button[type="button"]:hover {
-    background-color: #6c59ed;
-  }
+a:hover {
+    color: #E5989B;
+}
 
-  .fa-bars{
+.fa-bars{
     font-size: 40px;
     margin-top: 4px;
     color: #6D6875;
-  }
-  
-  /* Estilos de los enlaces */
-  #enlaces {
+}
+
+/* Estilos de los enlaces */
+#enlaces {
     text-align: center;
     padding: 20px;
-  }
-  
-  button {
+}
+
+button {
     padding: 10px 20px;
     background-color: #6D6875;
     color: #fff;
@@ -132,54 +101,54 @@ form {
     font-size: 16px;
     cursor: pointer;
     margin: 10px;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #6D6875;
-  }
-  
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
   nav ul {
       display: block;
       padding: 0;
   }
-  
+
   nav li {
       display: block;
       text-align: center;
       margin: 10px 0;
   }
-  
+
   #botones {
       text-align: center;
   }
-  }
-  
-  @keyframes rotateLogo {
+}
+
+@keyframes rotateLogo {
   from {
       transform: translate(-50%, -50%) rotate(0deg) scale(1);
   }
   to { 
       transform: translate(-50%, -50%) rotate(360deg) scale(5.5); 
   }
-  }
-  
-  @keyframes opacity{
+}
+
+@keyframes opacity{
   0%{opacity: 1;}
   80%{opacity: 0.75;}
   90%{opacity: 0.5;}
   100%{opacity: 0;}
-  }
-  .menuToggle{
+}
+.menuToggle{
   display: none;
-  }
-  /* Diseño Responsivo */
-  /* SE CUMPLE HASTA LOS 768px */
-  @media screen and (max-width: 768px) {
+}
+/* Diseño Responsivo */
+/* SE CUMPLE HASTA LOS 768px */
+@media screen and (max-width: 768px) {
   .menuToggle {
       display: block;
   }
-  
+
   .menuToggle li{
       width: 50px;
       /* display: block; */
@@ -204,25 +173,25 @@ form {
       text-align: center;
       border-radius: 0 0 10px 10px;
   }
-  
+
   /* Cuando tenga la clase activa, entonces se verá */
   .barradenavegación.active {
       display: flex;
   }
-  
+
   .fa-bars {
       font-size: 28px;
   }
-  
+
   h1 {
       font-size: 20px;
   }
-  
+
   .barradenavegación li {
       margin: 10px 0;
   }
-  
+
   .barradenavegación a {
       font-size: 18px;
   }
-  }
+}
