@@ -52,6 +52,9 @@ nav a {
 h1{
   font-family: "Helvetica";
   color: #B5838D;
+ background-color: #FFCDB2;
+  text-align: center;
+  margin: 10px;
 }
 
 form {
