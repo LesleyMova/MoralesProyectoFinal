@@ -7,33 +7,15 @@
     <title>Galería de Imágenes</title>
 </head>
 <body>
-
 <div class="gallery">
-    <div class="thumbnails">
-        <img class="thumbnail" src="hanako.jpg" alt="Thumbnail 1" onclick="showImage('imagen1.jpg')">
-        <img class="thumbnail" src="heikala2.jpg" alt="Thumbnail 2" onclick="showImage('imagen2.jpg')">
-        <img class="thumbnail" src="heikala3.jpg" alt="Thumbnail 3" onclick="showImage('imagen3.jpg')">
-        <img class="thumbnail" src="heikala4.jpg" alt="Thumbnail 4" onclick="showImage('imagen4.jpg')">
-        <img class="thumbnail" src="noma1.jpg" alt="Thumbnail 5" onclick="showImage('imagen5.jpg')">
-        <img class="thumbnail" src="noma2.jpg" alt="Thumbnail 6" onclick="showImage('imagen6.jpg')">
-        <img class="thumbnail" src="noma3.jpg" alt="Thumbnail 7" onclick="showImage('imagen7.jpg')">
-        <img class="thumbnail" src="noma4.jpg" alt="Thumbnail 8" onclick="showImage('imagen8.jpg')">
-        <img class="thumbnail" src="noma5.jpg" alt="Thumbnail 9" onclick="showImage('imagen9.jpg')">
-        <img class="thumbnail" src="noma6.jpg" alt="Thumbnail 10" onclick="showImage('imagen10.jpg')">
-        
-    </div>
+        <img id="img0" class="imagenes-pequeñas" src="hanako.jpg" alt="Foto 1" onclick="cambiarImagen('foto1.jpg')">
+        <img id="img1" class="imagenes-pequeñas" src="foto2.jpg" alt="Foto 2" onclick="cambiarImagen('foto2.jpg')">
+        <img id="img2" class="imagenes-pequeñas" src="foto3.jpg" alt="Foto 3" onclick="cambiarImagen('foto3.jpg')">
 
-    <div class="main-image-container">
-        <img class="main-image" src="" alt="Imagen principal" id="mainImage">
-    </div>
+    <img id="imagen-grande" src="foto1.jpg" alt="Foto grande">
 </div>
 
-<script>
-    function showImage(imageUrl) {
-        var mainImage = document.getElementById('mainImage');
-        mainImage.src = imageUrl;
-    }
-</script>
+<script src="scripts.js"></script>
 
 </body>
 </html>
