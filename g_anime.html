@@ -7,10 +7,31 @@
     <title>Galería de Imágenes</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul class="barradenavegación">
+                <li><a href="index.html"><img src="./imagenes/firma.png" ></a></li>
+                <li><a href="iniciarsesion.html"><img src="./imagenes/avatar.png"></a></li>
+                <li><a href=""><img src="./imagenes/galeria.png"></a></li>
+                <li><a href=""><img src="./imagenes/lupa.png"></a></li>
+                <li><a href="contacto.html"><img src="./imagenes/correo-electronico.png"></a></li>
+            </ul> 
+            <div class="menuToggle">
+                <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </div>
+        </nav>
+    </header>
+    
 <div class="gallery">
-        <img id="img0" class="imagenes-pequeñas" src="./imagenes/hanako.jpg" alt="Foto 1" onclick="cambiarImagen('foto1.jpg')">
-        <img id="img1" class="imagenes-pequeñas" src="./imagenes/noma2.jpg" alt="Foto 2" onclick="cambiarImagen('foto2.jpg')">
-        <img id="img2" class="imagenes-pequeñas" src="./imagenes/heikala3.jpg" alt="Foto 3" onclick="cambiarImagen('foto3.jpg')">
+        <img id="img0" class="imagenes-pequeñas" src="./imagenes/hanako.jpg" alt="Foto 1" onclick="cambiarImagen(this)">
+        <img id="img1" class="imagenes-pequeñas" src="./imagenes/heikala 2.jpg" alt="Foto 2" onclick="cambiarImagen(this)">
+        <img id="img2" class="imagenes-pequeñas" src="./imagenes/heikala 3.jpg" alt="Foto 3" onclick="cambiarImagen(this)">
+        <img id="img3" class="imagenes-pequeñas" src="./imagenes/heikala 4.jpg" alt="Foto 3" onclick="cambiarImagen(this)">
+        <img id="img4" class="imagenes-pequeñas" src="./imagenes/noma 1.jpg" alt="Foto 3" onclick="cambiarImagen(this)">
+        <img id="img5" class="imagenes-pequeñas" src="./imagenes/noma 2.jpg" alt="Foto 3" onclick="cambiarImagen(this)">
+        <img id="img6" class="imagenes-pequeñas" src="./imagenes/noma 4.jpg" alt="Foto 3" onclick="cambiarImagen(this)">
+        <img id="img7" class="imagenes-pequeñas" src="./imagenes/noma 6.jpg" alt="Foto 3" onclick="cambiarImagen(this)">
+        <img id="img8" class="imagenes-pequeñas" src="./imagenes/noma 7.jpg" alt="Foto 3" onclick="cambiarImagen(this)">
 
     <img id="imagen-grande" src="foto1.jpg" alt="Foto grande">
 </div>
