@@ -12,7 +12,7 @@ img{
 
 body {
     font-family: Arial, sans-serif;
-    background:#e0b8b8;
+    background-image: url("./imagenes/fondo.jpg");
     margin: 0;
     padding: 0;
 }
@@ -66,8 +66,11 @@ li:hover{
 
 .grande{
     width: 50%;
+    height: 50%;
 }
+
 #imagen-grande {
+    display: flex;
     margin: 10%;
     object-fit: center;
     border: 20px solid #6D6875;
