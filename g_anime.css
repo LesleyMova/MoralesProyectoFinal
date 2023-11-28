@@ -12,7 +12,7 @@ img{
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background:#e0b8b8;
     margin: 0;
     padding: 0;
 }
@@ -44,30 +44,32 @@ li:hover{
     align-items: center;
 }
 
+.galeria{
+    display: flex;
+}
 
 .gallery {
+    width: 50%;
     display: flex;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
     flex-wrap: wrap;
-
 }
 
 .imagenes-pequeñas {
     width: 150px;
     height: 150px;
-    border: 10px solid #ccc;
+    border: 10px solid #FFB4A2;
     cursor: pointer;
     margin: 10px;
     object-fit: right;
 }
 
-
-#imagen-grande {
+.grande{
     width: 50%;
-    height: 50%;
-    object-fit: left;
-    border: 20px solid #ccc;
+}
+#imagen-grande {
+    margin: 10%;
+    object-fit: center;
+    border: 20px solid #6D6875;
 
 }
