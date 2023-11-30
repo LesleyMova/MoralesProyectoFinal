@@ -220,3 +220,11 @@ button:hover {
         font-size: 18px;
     }
 }
+
+.map{
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 10px #6D6875;
+    
+}
